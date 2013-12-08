@@ -1,0 +1,87 @@
+//+++ Colors +++++++++++++++++++++++++++++++++++++//                                                         
+.grey { color: #ccc; }
+
+.darkgrey{ color: #666; }
+
+.greyblue { color: #6e7e81; }
+
+.white { color: #fff; }
+
+//+++ Background Colors +++
+
+.greybkrnd { color: #ccc; }
+
+.darkgrey{ background-color: #666; }
+
+.greybluebkrnd { background-color: #6e7e81; }
+
+.white-bkgrnd { background-color: #fff; }
+
+//+++ General Styles +++++++++++++++++++++++++++++++++++++//                                                         
+
+body {
+  background-color: #ccc; //cool grey     
+}
+.container {
+  background-color: white;
+}
+
+.mgt-0  { margin-top: 0px; }
+.mgt-10 { margin-top: 10px; } 
+.mgt-20 { margin-top: 20px; } 
+.mgt-30 { margin-top: 30px; } 
+.mgt-40 { margin-top: 40px; }
+.mgt-50 { margin-top: 50px; }   
+
+.mgb-0  { margin-bottom: 0px; }
+.mgb-10 { margin-bottom: 10px; } 
+.mgb-20 { margin-bottom: 20px; } 
+.mgb-30 { margin-bottom: 30px; } 
+.mgb-40 { margin-bottom: 40px; }
+.mgb-50 { margin-bottom: 50px; }
+
+.mgtb-0  { margin-top: 0px;  margin-bottom: 0px;  }
+.mgtb-10 { margin-top: 10px; margin-bottom: 10px; } 
+.mgtb-20 { margin-top: 20px; margin-bottom: 20px; } 
+.mgtb-30 { margin-top: 30px; margin-bottom: 30px; } 
+.mgtb-40 { margin-top: 40px; margin-bottom: 40px; }
+.mgtb-50 { margin-top: 50px; margin-bottom: 50px; }
+
+
+.pd-0  { padding: 0px; }
+.pd-10 { padding: 10px; } 
+.pd-20 { padding: 20px; } 
+.pd-30 { padding: 30px; } 
+.pd-40 { padding: 40px; }
+.pd-50 { padding: 50px; }   
+
+.pdb-0  { padding-bottom: 0px; }
+.pdb-10 { padding-bottom: 10px; } 
+.pdb-20 { padding-bottom: 20px; } 
+.pdb-30 { padding-bottom: 30px; } 
+.pdb-40 { padding-bottom: 40px; }
+.pdb-50 { padding-bottom: 50px; }
+
+.pdtb-0  { padding: 0px;  padding-bottom: 0px;  }
+.pdtb-10 { padding: 10px; padding-bottom: 10px; } 
+.pdtb-20 { padding: 20px; padding-bottom: 20px; } 
+.pdtb-30 { padding: 30px; padding-bottom: 30px; } 
+.pdtb-40 { padding: 40px; padding-bottom: 40px; }
+.pdtb-50 { padding: 50px; padding-bottom: 50px; }  
+ 
+//+++ Navbar +++++++++++++++++++++++++++++++++++++//                                                         
+
+.navbar-wrapper {
+  margin-top: 20px;
+}
+
+//+++ Footer +++++++++++++++++++++++++++++++++++++//       
+footer ul li a, a:visited {
+  color: white;
+}
+
+footer ul li a:hover, footer p a:hover {
+  color: #ef8481;
+  background-color: transparent;
+  text-decoration: none;
+}

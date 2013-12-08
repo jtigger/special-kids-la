@@ -43,14 +43,15 @@
   <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
 </div><!-- /.carousel -->
 
-<div class="jumbotron">
+<div class="col-lg-5">
 	<h1>Welcome to Special Kids_LA!</h1>
-	<p>
+	<p class="lead">
 		This is where we will be 
 	</p>
-</div>
+
 <%= form_tag(schools_path, method: :get) do %>
   <%= label_tag(:school_name, "Where does your child go to school?") %>
   <%= text_field_tag(:school_name) %>
   <%= submit_tag("Search") %>
 <% end %>
+</div> 

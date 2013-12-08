@@ -1,0 +1,7 @@
+<h1>Welcome to Special Kids LA!</h1>
+
+<%= form_tag(reviews_path, method: :get) do %>
+  <%= label_tag(:school_name, "Where does your child go to school?") %>
+  <%= text_field_tag(:school_name) %>
+  <%= submit_tag("Search") %>
+<% end %>

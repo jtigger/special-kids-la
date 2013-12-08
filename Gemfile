@@ -33,6 +33,7 @@ group :doc do
 end
 
 gem 'bootstrap-sass', '~> 2.0'
+# gem 'bootswatch-rails'    
 
 group :development do
   gem 'rails_layout'

@@ -26,6 +26,8 @@ body {
   background-color: white;
 }
 
+a:hover { background-color: transparent;}
+
 .mgt-0  { margin-top: 0px; }
 .mgt-10 { margin-top: 10px; } 
 .mgt-20 { margin-top: 20px; } 
@@ -75,6 +77,17 @@ body {
   margin-top: 20px;
 }
 
+//+++ Panel +++++++++++++++++++++++++++++++++++++//       
+a.list-group-item:visited {
+  color: #666;
+}
+
+a.list-group-item:hover, a.list-group-item:focus {
+text-decoration: none;
+background-color: #EB6864;
+color: white;
+}
+
 //+++ Footer +++++++++++++++++++++++++++++++++++++//       
 footer ul li a, a:visited {
   color: white;
@@ -85,3 +98,4 @@ footer ul li a:hover, footer p a:hover {
   background-color: transparent;
   text-decoration: none;
 }
+

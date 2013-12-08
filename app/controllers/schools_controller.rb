@@ -4,7 +4,14 @@ class SchoolsController < ApplicationController
   # GET /schools
   # GET /schools.json
   def index
-    @schools = School.all
+    if search_params.empty?
+      @schools = School.all
+    else
+      @schools = School.where("name like ?", "%" + search_params[:school_name] +"%") || {}
+      if @schools.count == 1
+        redirect_to school_path(@schools.first)
+      end
+    end
   end
 
   # GET /schools/1
@@ -70,5 +77,9 @@ class SchoolsController < ApplicationController
     # Never trust parameters from the scary internet, only allow the white list through.
     def school_params
       params.require(:school).permit(:name, :avatar_url, :overall_rating)
+    end
+    
+    def search_params
+      params.permit(:school_name)
     end
 end
